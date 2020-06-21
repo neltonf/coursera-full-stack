@@ -1,11 +1,11 @@
 .row-header {
     margin: 0px auto;
-    padding: 0px 0px;
+    padding: 0px;
 }
 
 .row-content {
     margin: 0px auto;
-    padding: 50px 0px;
+    padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
 }
@@ -13,7 +13,7 @@
 .footer {
     background-color: #D1C4E9;
     margin: 0px auto;
-    padding: 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .jumbotron {
@@ -38,13 +38,6 @@ body {
     background-color: #512DA8;
 }
 
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
-
 .carousel {
     background: #512DA8;
 }
@@ -61,10 +54,11 @@ body {
 }
 
 #carouselButton {
-    right: 0px;
     position: absolute;
     bottom: 0px;
+    right: 0px;
 }
+
 
 #carousel-button {
     right: 0px;
